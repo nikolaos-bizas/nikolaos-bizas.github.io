@@ -21,14 +21,16 @@
 title: Μαρτυρίες
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Άκου, θά ’ρθει καιρός που τα παιδιά θα διαλέγουνε γονιούς δε θα βγαίνουν στην τύχη Δε θα υπάρχουνε πόρτες κλειστές με γερμένους απέξω Και τη δουλειά θα τη διαλέγουμε δε θα ’μαστε άλογα να μας κοιτάνε στα δόντια. Οι άνθρωποι –σκέψου!– θα μιλάνε με χρώματα κι άλλοι με νότες Να φυλάξεις μοναχά σε μια μεγάλη φιάλη με νερό λέξεις κι έννοιες σαν κι αυτές απροσάρμοστοι-καταπίεση-μοναξιά-τιμή-κέρδος-εξευτελισμός για το μάθημα της ιστορίας.
+  And if you find her poor, Ithaka won't have fooled you.
+Wise as you will have become, so full of experience,
+you'll have understood by then what these Ithakas mean.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nikolaos-bizas.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: https://twitter.com/nikbizas?lang=en-GB
+twitter_username: nikbizas
 github_username:  nikolaos-bizas
 
 # Build settings
-theme: minima
+theme: Hyde
 plugins:
   - jekyll-feed
 
