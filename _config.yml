@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Μαρτυρίες
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Άκου, θά ’ρθει καιρός που τα παιδιά θα διαλέγουνε γονιούς δε θα βγαίνουν στην τύχη Δε θα υπάρχουνε πόρτες κλειστές με γερμένους απέξω Και τη δουλειά θα τη διαλέγουμε δε θα ’μαστε άλογα να μας κοιτάνε στα δόντια. Οι άνθρωποι –σκέψου!– θα μιλάνε με χρώματα κι άλλοι με νότες Να φυλάξεις μοναχά σε μια μεγάλη φιάλη με νερό λέξεις κι έννοιες σαν κι αυτές απροσάρμοστοι-καταπίεση-μοναξιά-τιμή-κέρδος-εξευτελισμός για το μάθημα της ιστορίας.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://nikolaos-bizas.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: https://twitter.com/nikbizas?lang=en-GB
+github_username:  nikolaos-bizas
 
 # Build settings
 theme: minima
