@@ -8,16 +8,58 @@
           <style>
                body {
                     font-family: 'Poppins', sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+               }
+               header, footer {
+                    width: 100%;
+                    text-align: center;
+               }
+               .main-content {
+                    flex: 3;
+                    padding: 20px;
+               }
+               .sidebar {
+                    flex: 1;
+                    padding: 20px;
+                    background-color: #f4f4f4;
                }
           </style>
      </head>
      <body>
           <header>
                <h1>Μαρτυρίες</h1>
-               <nav>
-                    <a href="./about.html">About</a>
-               </nav>
           </header>
-          Υπό κατασκευή
+          <div class="main-content">
+               <article>
+                    <h2>Article Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ipsum in dui malesuada tempus.</p>
+               </article>
+          </div>
+          <aside class="sidebar">
+               <h3>Θα ’ρθει καιρός που θ’ αλλάξουν τα πράματα</h3>
+               <p>Άκου, θά ’ρθει καιρός
+που τα παιδιά θα διαλέγουνε γονιούς
+δε θα βγαίνουν στην τύχη
+Δε θα υπάρχουνε πόρτες κλειστές
+με γερμένους απέξω
+Και τη δουλειά
+θα τη διαλέγουμε
+δε θα ’μαστε άλογα να μας κοιτάνε στα δόντια.
+Οι άνθρωποι –σκέψου!– θα μιλάνε με χρώματα
+κι άλλοι με νότες
+Να φυλάξεις μοναχά
+σε μια μεγάλη φιάλη με νερό
+λέξεις κι έννοιες σαν κι αυτές
+απροσάρμοστοι-καταπίεση-μοναξιά-τιμή-κέρδος-εξευτελισμός
+για το μάθημα της ιστορίας.</p>
+               <h4>Tags</h4>
+               <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Web Design</a></li>
+               </ul>
+          </aside>
      </body>
 </html>
